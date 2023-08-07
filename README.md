@@ -21,6 +21,10 @@ npm run dev
 npm run build
 ```
 
+Run the project and access the documentation at:
+
+http://localhost:3000/swagger
+
 ### Aditional commands:
 
 - For generate swagger docs without start project as developer
