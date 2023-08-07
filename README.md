@@ -25,6 +25,8 @@ Run the project and access the documentation at:
 
 http://localhost:3000/swagger
 
+![image](https://github.com/nullbeam/example-node-ts/assets/56894248/88bda0b2-7afe-4e78-b068-9b440ad69ac6)
+
 ### Aditional commands:
 
 - For generate swagger docs without start project as developer
