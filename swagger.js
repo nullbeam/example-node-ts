@@ -23,8 +23,25 @@ const doc = {
         },
     ],
     securityDefinitions: {},
-    definitions: {},
-    components: {}
+    components:{
+        '@schemas': {
+            Customer: {
+                type: 'object',
+                properties: {
+                    id: {
+                        type: 'string',
+                        description: 'Customer id',
+                        example: 'u20130205'
+                    },
+                    name: {
+                        type: 'string',
+                        description: 'Customer name',
+                        example: 'Bob'
+                    }
+                }
+            }
+        }
+    }
 }
 
 const outputFile = './dist/swagger-output.json'
